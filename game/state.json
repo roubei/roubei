@@ -1,21 +1,23 @@
 {
   "game_id": 1,
   "board": [
+    "H",
     "",
     "",
     "",
-    "",
-    "",
+    "B",
     "",
     "",
     "",
     ""
   ],
-  "move_no": 0,
+  "move_no": 2,
   "finished": false,
   "result": null,
   "win_line": null,
-  "players": [],
+  "players": [
+    "luan007"
+  ],
   "stats": {
     "human": 0,
     "bot": 0,

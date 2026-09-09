@@ -2,7 +2,7 @@
 
 # 肉贝贝 · roubei
 
-**余颍殷 Christy** — Emerge cofounder · 北京
+**余颍殷 Christy** — Emerge 创始人 · 北京
 
 <sub>硬件、软件与设计的交汇处。近年在把工作室推向应用智能实验室。</sub>
 
@@ -15,12 +15,14 @@
 <sub>第 1 局 · 人类 0 胜 0 平 0 负 · 共 0 局</sub>
 
 <table>
-<tr><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-1-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 1 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-2-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 2 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-3-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 3 格">＋</a></td></tr>
-<tr><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-4-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 4 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-5-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 5 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-6-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 6 格">＋</a></td></tr>
-<tr><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-7-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 7 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-8-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 8 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-9-g1-m0&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 9 格">＋</a></td></tr>
+<tr><td align="center" width="76" height="64">●</td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-2-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 2 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-3-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 3 格">＋</a></td></tr>
+<tr><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-4-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 4 格">＋</a></td><td align="center" width="76" height="64">✕</td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-6-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 6 格">＋</a></td></tr>
+<tr><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-7-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 7 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-8-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 8 格">＋</a></td><td align="center" width="76" height="64"><a href="https://github.com/roubei/roubei/issues/new?title=play-9-g1-m2&body=%E6%8F%90%E4%BA%A4%E5%8D%B3%E8%90%BD%E5%AD%90%EF%BC%8C%E6%AD%A3%E6%96%87%E4%B8%8D%E7%94%A8%E6%94%B9%E3%80%82" title="落在第 9 格">＋</a></td></tr>
 </table>
 
-**轮到你。** 点任意 <code>＋</code> 落子 —— 你执 ● ，仓库执 ✕ 。　<sub>第 1 手</sub>
+**轮到你。** 点任意 <code>＋</code> 落子 —— 你执 ● ，仓库执 ✕ 。　<sub>第 3 手</sub>
+
+<sub>本局执 ● 者：[@luan007](https://github.com/luan007)</sub>
 
 </div>
 
@@ -53,7 +55,7 @@ _暂无。_
 <div align="center">
 <sub>
 
-Emerge · [emerge.ltd](https://emerge.ltd) 　|　 e01 · [e01.ai](https://e01.ai)
+Emerge · [emergestudio.cn](https://emergestudio.cn) 　|　 e01 · [e01.ai](https://e01.ai)
 
 </sub>
 </div>
