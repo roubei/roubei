@@ -206,10 +206,13 @@ def render_log(s):
 
 
 def read_part(path, fallback=""):
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            return f.read().rstrip("\n")
-    return fallback
+    """读入可自由编辑的文案片段，顺手剔掉给作者看的 HTML 注释。"""
+    if not os.path.exists(path):
+        return fallback
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+    return text.strip("\n").strip()
 
 
 def render_readme(s):

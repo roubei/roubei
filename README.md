@@ -1,5 +1,3 @@
-<!-- 这个文件是 README 顶部的唯一来源。改文案改这里，不要直接改 README.md —— 它每局都会被重写。 -->
-
 <div align="center">
 
 # 肉贝贝 · roubei
@@ -51,8 +49,6 @@ _暂无。_
 </details>
 
 ---
-
-<!-- README 底部的唯一来源。链接自己填。 -->
 
 <div align="center">
 <sub>
