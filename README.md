@@ -2,7 +2,7 @@
 
 # 肉贝贝 · roubei
 
-**余颍殷 Christy** — Emerge 创始人 · 北京
+**余颍殷 Christy** — Emerge cofounder · 北京
 
 <sub>硬件、软件与设计的交汇处。近年在把工作室推向应用智能实验室。</sub>
 
