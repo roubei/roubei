@@ -2,21 +2,22 @@
   "game_id": 1,
   "board": [
     "H",
-    "",
+    "B",
     "",
     "",
     "B",
     "",
     "",
     "",
-    ""
+    "H"
   ],
-  "move_no": 2,
+  "move_no": 4,
   "finished": false,
   "result": null,
   "win_line": null,
   "players": [
-    "luan007"
+    "luan007",
+    "Q-quanying"
   ],
   "stats": {
     "human": 0,
