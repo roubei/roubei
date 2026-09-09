@@ -53,7 +53,7 @@ _暂无。_
 <div align="center">
 <sub>
 
-Emerge · [emergestudio.cn](https://emerge.ltd) 　|　 e01 · [e01.ai](https://e01.ai)
+Emerge · [emerge.ltd](https://emerge.ltd) 　|　 e01 · [e01.ai](https://e01.ai)
 
 </sub>
 </div>
