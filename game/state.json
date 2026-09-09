@@ -1,23 +1,21 @@
 {
   "game_id": 1,
   "board": [
-    "B",
     "",
     "",
     "",
-    "H",
+    "",
+    "",
     "",
     "",
     "",
     ""
   ],
-  "move_no": 2,
+  "move_no": 0,
   "finished": false,
   "result": null,
   "win_line": null,
-  "players": [
-    "roubei"
-  ],
+  "players": [],
   "stats": {
     "human": 0,
     "bot": 0,
