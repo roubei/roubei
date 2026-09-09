@@ -1,0 +1,26 @@
+{
+  "game_id": 1,
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "move_no": 0,
+  "finished": false,
+  "result": null,
+  "win_line": null,
+  "players": [],
+  "stats": {
+    "human": 0,
+    "bot": 0,
+    "draw": 0
+  },
+  "hall": [],
+  "log": []
+}

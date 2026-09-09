@@ -1,0 +1,94 @@
+name: game
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "render = 仅重绘 README；reset = 弃掉当前局面重开"
+        default: render
+        type: choice
+        options: [render, reset]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: game-board
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      startsWith(github.event.issue.title, 'play-') ||
+      startsWith(github.event.issue.title, 'newgame-')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 弃局重开（仅手动触发）
+        if: github.event_name == 'workflow_dispatch' && inputs.action == 'reset'
+        run: |
+          python -c '
+          import json
+          s = json.load(open("game/state.json"))
+          s.update(game_id=s["game_id"] + 1, board=[""] * 9, move_no=0,
+                   finished=False, result=None, win_line=None, players=[])
+          json.dump(s, open("game/state.json", "w"), ensure_ascii=False, indent=2)
+          '
+
+      - name: 落子
+        id: move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || 0 }}
+          ISSUE_ACTOR: ${{ github.event.issue.user.login || 'roubei' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python game/engine.py --render-only > /dev/null
+            echo "reply=" >> "$GITHUB_OUTPUT"
+          else
+            REPLY="$(python game/engine.py \
+              --title "$ISSUE_TITLE" \
+              --issue "$ISSUE_NUMBER" \
+              --actor "$ISSUE_ACTOR")"
+            printf 'reply<<GAMEEOF\n%s\nGAMEEOF\n' "$REPLY" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 提交棋盘
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no change"; exit 0
+          fi
+          git config user.name  "roubei-game"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git commit -m "game: ${GITHUB_EVENT_NAME} #${{ github.event.issue.number || 0 }}"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            git pull --rebase --autostash || true
+          done
+          exit 1
+
+      - name: 回复并关闭 issue
+        if: github.event_name == 'issues' && steps.move.outputs.reply != '' && steps.move.outputs.reply != 'SKIP'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPLY: ${{ steps.move.outputs.reply }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          set -euo pipefail
+          printf '%s\n\n— [回主页看棋盘](https://github.com/%s)\n' "$REPLY" "$GITHUB_REPOSITORY" > /tmp/reply.md
+          gh issue comment "$NUM" --body-file /tmp/reply.md
+          gh issue close "$NUM" --reason completed
+          gh issue lock "$NUM" --reason resolved || true
